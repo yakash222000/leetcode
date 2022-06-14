@@ -1,0 +1,23 @@
+class Solution {
+    public int countPoints(String rings) {
+        int count=0;
+        int[][] arr =new int[10][3];
+            for(int i=1;i<rings.length();i+=2){
+                    if(rings.charAt(i-1)=='R'){
+                            arr[Character.getNumericValue(rings.charAt(i))][0]++;
+                    }
+                    if(rings.charAt(i-1)=='G'){
+                            arr[Character.getNumericValue(rings.charAt(i))][1]++;
+                    }
+                    if(rings.charAt(i-1)=='B'){
+                            arr[Character.getNumericValue(rings.charAt(i))][2]++;
+                    }
+            }
+            for (int j=0;j<10;j++){
+                    if(arr[j][0]>0 && arr[j][1]>0 && arr[j][2]>0){
+                            count++;
+                    }
+            }
+            return count;
+    }
+}
