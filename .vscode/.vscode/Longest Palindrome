@@ -1,0 +1,33 @@
+class Solution {
+    public int longestPalindrome(String s) {
+        HashMap<Character,Integer> arr = new HashMap<>();
+            int res=0;
+            int longest_odd=0;
+        for (int i=0;i<s.length();i++){
+                if(arr.containsKey(s.charAt(i))){
+                        arr.put(s.charAt(i),arr.get(s.charAt(i))+1);
+                }
+                else{
+                        arr.put(s.charAt(i),1);
+                }
+        }
+        int temp=0;
+        for (char name : arr.keySet()){
+            if(arr.get(name)%2==0){
+                    res+=arr.get(name);
+            }
+            else{
+                    temp=1;
+                    longest_odd=Math.max(longest_odd,arr.get(name));
+                    res+=arr.get(name)-1;
+            }
+        }
+        if(temp==0){
+                return res;
+        }
+        else{
+                return res+1;
+        }
+    }
+        
+}
