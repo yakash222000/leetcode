@@ -1,0 +1,24 @@
+class Solution {
+    public int countLargestGroup(int n) {
+        int[] sum = new int[36];
+        int s=0,count=0,max=0;
+        for(int i=1;i<=n;i++){
+                int temp=i;
+                s=0;
+                while(temp>0){
+                      s+=temp%10;
+                      temp/=10;  
+                }
+                sum[s-1]++;
+                
+        }
+        for (int i=0;i<35;i++){
+                count=Math.max(count,sum[i]);
+        }
+        for(int i=0;i<35;i++){
+                if(sum[i]==count)
+                        max++;
+        }
+            return max;
+    }
+}
