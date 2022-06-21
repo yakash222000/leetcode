@@ -1,0 +1,17 @@
+class Solution {
+    public int balancedStringSplit(String s) {
+        int rcount=0,lcount=0,max=0;        
+        for(int i=0;i<s.length();i++){
+                if(s.charAt(i)=='R')
+                        rcount++;
+                if(s.charAt(i)=='L')
+                        lcount++;
+                if(lcount!=0 && lcount==rcount){
+                        max++;
+                        rcount=0;
+                        lcount=0;
+                }
+        }
+            return max;
+    }
+}
