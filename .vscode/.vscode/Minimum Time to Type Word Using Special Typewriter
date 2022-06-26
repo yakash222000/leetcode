@@ -1,0 +1,16 @@
+class Solution {
+    public int minTimeToType(String word) {
+        int p=97;
+            int count=word.length();
+            for(int i=0;i<word.length();i++){
+                    if((p-word.charAt(i))>13||(p-word.charAt(i))<-13){
+                            count=count+26-Math.abs(p-word.charAt(i));
+                    }
+                    else{
+                            count=count+Math.abs(p-word.charAt(i));
+                    }
+                    p=(int)word.charAt(i);
+            }
+            return count;            
+    }
+}
