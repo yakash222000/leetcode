@@ -1,0 +1,15 @@
+class Solution 
+{ 
+    String reverseAlternate(String s) {
+        String[] arr= s.split(" ");
+        for(int i=1;i<arr.length;i+=2){
+            String str="";
+            for(int j=arr[i].length()-1;j>=0;j--){
+                str+=arr[i].charAt(j);
+            }
+            arr[i]=str;
+        }
+        String str1 = String.join(" ", arr);
+        return str1;
+    }
+} 
