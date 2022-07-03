@@ -1,0 +1,27 @@
+class Solution {
+    public boolean checkRecord(String s) {
+        int ab=0,max=0;
+        int late=1;
+        if(s.charAt(0)=='A')
+                ab++;
+        for(int i=1;i<s.length();i++){
+                if(s.charAt(i-1)==s.charAt(i)&&s.charAt(i)=='L'){
+                        late++;
+                        max=Math.max(max,late);
+                        if(max==3)
+                                return false;
+                }
+                        
+                else
+                        late=1;
+                if(s.charAt(i)=='A'){
+                        ab++;
+                        if(ab==2)
+                                return false;
+                }
+                        
+        }
+            return true;
+            
+    }
+}
