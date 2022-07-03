@@ -1,0 +1,14 @@
+class Solution {
+    String removeDups(String S) {
+        int[] arr =new int[26];
+        String res="";
+        for(char ch: S.toCharArray()){
+            if(arr[ch-'a']==1)
+            continue;
+            arr[ch-'a']=1;
+            res+=ch;
+            
+        }
+        return res;
+    }
+}
