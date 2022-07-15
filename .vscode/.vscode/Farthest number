@@ -1,0 +1,28 @@
+class Solution { 
+    static int[] farNumber(int N, int Arr[]){  
+        int min=Integer.MAX_VALUE;
+	 int[] lmin = new int[N];
+	 for(int i=N-1;i>=0;i--){
+	     min=Math.min(min,Arr[i]);
+	     lmin[i]=min;
+	 }
+	 int p=N-1;
+	 int[] res = new int[N];
+	 for(int i=0;i<N;i++){
+	     p=N-1;
+	     if(Arr[i]==lmin[i]){
+	         res[i]=-1;
+	     }
+	     else{
+	         while(p>0){
+	             if(Arr[i]>lmin[p]){
+	                 res[i]=p;
+	                 break;
+	             }
+	             p--;
+	         }
+	     }
+	 }
+	 return res;
+	}
+} 
