@@ -1,0 +1,29 @@
+class Solution {
+    public int primePalindrome(int n) {
+            if (8 <= n && n <= 11) return 11;
+        for (int x = 1; x < 100000; x++) {
+            String s = Integer.toString(x), r = new StringBuilder(s).reverse().toString();
+            int y = Integer.parseInt(s + r.substring(1));
+            if (y >= n && isPrime(y)) return y;
+        }
+        return -1;
+    }
+    boolean isPrime(int n){
+            int i,temp=0;
+            if(n==1)
+                    return false;
+            if(n==2)
+                    return true;
+            
+            for(i=2;i<n/2+1;i++){
+                if(n%i==0){
+                        temp=1;
+                        break;
+                }    
+            }
+            if(temp==1)
+                    return false;
+            return true;
+    }
+
+}
