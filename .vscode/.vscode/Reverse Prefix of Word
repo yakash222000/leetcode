@@ -1,0 +1,16 @@
+class Solution {
+    public String reversePrefix(String word, char ch) {
+        if(!(word.contains(Character.toString(ch))))
+                return word;
+        int start=0;
+        while(word.charAt(start)!=ch){
+                start++;
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append(word.substring(0,start+1));
+        sb.reverse();
+        sb.append(word.substring(start+1,word.length()));
+            
+        return sb.toString();
+    }
+}
