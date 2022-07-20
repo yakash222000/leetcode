@@ -1,0 +1,28 @@
+class Solution
+{
+    ArrayList<Integer> commonElements(int A[], int B[], int C[], int n1, int n2, int n3) {
+         HashMap<Integer,Integer> map = new HashMap<>();
+         ArrayList<Integer> res = new ArrayList<>();
+         for(int i : A){
+             if(!(map.containsKey(i))){
+                 map.put(i,1);
+             }
+         }
+         for(int i : B){
+             if(map.containsKey(i)){
+                 map.put(i,2);
+             }
+         }
+         for(int i : C){
+             if(map.containsKey(i)){
+                 if(map.get(i)==2){
+                     res.add(i);
+                     map.remove(i);
+                 }
+                 
+             }
+         }
+         return res;
+         
+    }
+}
