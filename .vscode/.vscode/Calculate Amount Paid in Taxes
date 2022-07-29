@@ -1,0 +1,18 @@
+class Solution {
+    public double calculateTax(int[][] brackets, int income) {
+        double res=0;
+        int i=0,t=0;
+        while(income>t){
+                if(income<brackets[i][0]){
+                        res+=(income-t)*brackets[i][1];
+                        break;
+                }
+               res+=(brackets[i][0]-t)*brackets[i][1];
+                System.out.println(res+" "+t);
+               t=brackets[i][0];
+                i++;
+        }
+            
+            return res/100;
+    }
+}
