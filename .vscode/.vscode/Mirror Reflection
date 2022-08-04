@@ -1,0 +1,13 @@
+class Solution {
+    public int mirrorReflection(int p, int q) {
+        int a=p,b=q;
+        while(a%2==0&&b%2==0){
+                a/=2;
+                b/=2;
+        }
+        if(a%2==0 && b%2!=0) return 2;
+        if(a%2!=0 && b%2!=0) return 1;
+        if(a%2!=0 && b%2==0) return 0;
+               return 0;
+    }
+}
