@@ -1,0 +1,16 @@
+class Solution {
+    public int minimumRecolors(String blocks, int k) {
+        int res=0,black=0;
+            for(int i=0;i<k;i++){
+                    if(blocks.charAt(i)=='B') black++;
+            }
+            int max=black;
+            for(int i=1;i<=blocks.length()-k;i++){
+                    if(blocks.charAt(i-1)=='B') black--;
+                    if(blocks.charAt(i+k-1)=='B') black++;
+                    max=Math.max(black,max);
+            }
+            return k-max;
+            
+    }
+}
