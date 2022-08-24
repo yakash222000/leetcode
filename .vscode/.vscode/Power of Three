@@ -1,0 +1,15 @@
+class Solution {
+    public boolean isPowerOfThree(int n) {
+        if(n<1) return false;
+        if(n==1) return true;
+        int i=0;
+        while(Math.pow(3,i)<Math.pow(2,31)-1){
+                if(Math.pow(3,i)==n) return true;
+                
+                i++;
+                
+        }
+            System.out.println(i);
+            return false;
+    }
+}
