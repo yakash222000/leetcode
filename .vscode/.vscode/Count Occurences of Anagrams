@@ -1,0 +1,22 @@
+class Solution {
+
+    int search(String pat, String txt) {
+        int res=0;
+        int[] freq = new int[26];
+        int[] pfreq = new int[26];
+        for(int i=0;i<pat.length();i++){
+            pfreq[pat.charAt(i)-97]++;
+        }
+        for(int i=0;i<pat.length();i++){
+            freq[txt.charAt(i)-97]++;
+        }
+        if(Arrays.equals(freq,pfreq)) res++;
+        for(int i=pat.length();i<txt.length();i++){
+            freq[txt.charAt(i-pat.length())-97]--;
+            freq[txt.charAt(i)-97]++;
+            if(Arrays.equals(freq,pfreq)) res++;
+        }
+        return res;
+        
+    }
+}
