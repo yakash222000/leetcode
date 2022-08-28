@@ -1,0 +1,68 @@
+class Solution {
+    public int garbageCollection(String[] garbage, int[] travel) {
+        int count=0,total=0,last=-1,res=0;
+            for(int i=1;i<travel.length;i++){
+                    travel[i]+=travel[i-1];
+            }
+            for(int i=0;i<garbage.length;i++){
+                    count=0;
+                    if(garbage[i].contains("G")){
+                            for(char ch : garbage[i].toCharArray()) {
+                                    if(ch=='G') count++;
+                            }
+                            last=i;
+                    }
+                    total+=count;
+            }
+            if(last>=0)
+                    if(last==0){
+                            res=res+total;
+                    }
+                    else{
+                            res=res+travel[last-1]+total;
+                    }
+            
+            total=0;
+            last=-1;
+            for(int i=0;i<garbage.length;i++){
+                    count=0;
+                    if(garbage[i].contains("P")){
+                            for(char ch : garbage[i].toCharArray()) {
+                                    if(ch=='P') count++;
+                            }
+                            last=i;
+                    }
+                    total+=count;
+            }
+            if(last>=0) 
+                    if(last==0){
+                            res=res+total;
+                    }
+                    else{
+                            res=res+travel[last-1]+total;
+                    }
+                     
+            last=-1;
+            total=0;
+            
+            for(int i=0;i<garbage.length;i++){
+                    count=0;
+                    if(garbage[i].contains("M")){
+                            for(char ch : garbage[i].toCharArray()) {
+                                    if(ch=='M') count++;
+                            }
+                            last=i;
+                    }
+                    total+=count;
+            }
+            if(last>=0) 
+                    if(last==0){
+                            res=res+total;
+                    }
+                    else{
+                            res=res+travel[last-1]+total;
+                    }
+            return res;
+            
+    }
+}
