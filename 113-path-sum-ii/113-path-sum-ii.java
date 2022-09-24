@@ -35,7 +35,7 @@ class Solution {
                     if(sum==targetSum){
                             ans.add(new ArrayList<Integer>(ans1));
                     }
-                    System.out.println(ans1+"  "+sum+"  "+targetSum);
+                    //System.out.println(ans1+"  "+sum+"  "+targetSum);
                     sum-=node.val;
                     index = ans1.size() - 1;
                     if(index>=0)ans1.remove(index);
