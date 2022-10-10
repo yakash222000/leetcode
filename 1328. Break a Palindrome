@@ -1,0 +1,24 @@
+class Solution {
+    public String breakPalindrome(String palindrome) {
+        int n=palindrome.length();
+        if(n==1) return "";
+        int[] hash = new int[26];
+        for(int i=0;i<n;i++) hash[palindrome.charAt(i)-'a']++;
+            
+        StringBuilder res = new StringBuilder(palindrome);
+        if(hash[0]==n || (n%2==1 && hash[0]==n-1)){
+                res.setCharAt(n-1,'b');
+                return res.toString();
+        }
+        for(int i=0;i<n/2;i++){
+                if(palindrome.charAt(i)!='a'){
+                      res.setCharAt(i,'a'); 
+                      return res.toString();
+                }
+        }
+        
+        return res.toString();
+
+        
+    }
+}
