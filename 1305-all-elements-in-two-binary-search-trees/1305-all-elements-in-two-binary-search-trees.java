@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    TreeMap<Integer,Integer> map = new TreeMap<>();
+    HashMap<Integer,Integer> map = new HashMap<>();
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         traverse(root1);
         traverse(root2);
@@ -25,6 +25,7 @@ class Solution {
                         map.put(k,map.get(k)-1);
                 }
         }
+        Collections.sort(ans);
         return ans;     
     }
     void traverse(TreeNode node){
