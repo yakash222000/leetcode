@@ -14,24 +14,19 @@
  * }
  */
 class Solution {
-    HashMap<Integer,Integer> map = new HashMap<>();
+    //HashMap<Integer,Integer> map = new HashMap<>();
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
-        traverse(root1);
-        traverse(root2);
         List<Integer> ans = new ArrayList<>();
-        for(int k : map.keySet()){
-                while(map.get(k)>0){
-                        ans.add(k);
-                        map.put(k,map.get(k)-1);
-                }
-        }
+        traverse(root1,ans);
+        traverse(root2,ans);    
         Collections.sort(ans);
         return ans;     
     }
-    void traverse(TreeNode node){
+    public void traverse(TreeNode node,List<Integer> ans){
             if(node == null) return;
-            map.put(node.val,map.getOrDefault(node.val,0)+1);
-            traverse(node.left);
-            traverse(node.right);
+            //map.put(node.val,map.getOrDefault(node.val,0)+1);
+            ans.add(node.val);
+            traverse(node.left,ans);
+            traverse(node.right,ans);
     }
 }
