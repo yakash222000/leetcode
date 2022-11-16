@@ -1,23 +1,24 @@
 class Solution {
+    public boolean isDistinct(char a, char b){
+        return a!=b;
+    }
     public int longestBeautifulSubstring(String word) {
-        HashSet<Character> set = new HashSet<>();
-        int ans=0,i=0,j=0;
-        for(i=0,j=0;i<word.length();i++){
-               set.add(word.charAt(i));
-               if(i!=word.length()-1 && word.charAt(i)>word.charAt(i+1)){
-                       if(set.contains('a') && set.contains('e') && set.contains('i') &&
-                 set.contains('o') && set.contains('u') ){
-                       ans=Math.max(ans,i-j+1);
-               }
-                       set.clear();
-                       j=i+1;
-                       continue;
-               }   
-               if(set.contains('a') && set.contains('e') && set.contains('i') &&
-                 set.contains('o') && set.contains('u') ){
-                       ans=Math.max(ans,i-j+1);
-               }     
+        int maxLen = 0, n = word.length(), count = 1, wordLength = 1;
+        for(int i = 1;i<n;i++){
+            if(word.charAt(i-1) <= word.charAt(i)){
+                if(isDistinct(word.charAt(i-1), word.charAt(i))){
+                    count++;
+                }
+                wordLength++;
+                if(count == 5){
+                    maxLen = Math.max(maxLen, wordLength);
+                }
+            }
+            else{
+                count = 1;
+                wordLength = 1;
+            }
         }
-            return ans;
+        return maxLen;
     }
 }
