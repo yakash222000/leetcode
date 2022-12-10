@@ -4,25 +4,17 @@ class Solution {
         Stack<Character> st = new Stack<>();
         for(char c : s.toCharArray()){
                 if(st.isEmpty()){
-                        if(c==')'){
-                                res++;
-                        }
-                        else{
-                                st.push(c);
-                        }
+                        if(c==')') res++;
+                        else st.push(c);
                 }
                 else{
                         if(c==')'){
                                 if(st.peek()=='('){
                                         st.pop();
                                 }
-                                else{
-                                        res++;
-                                }
+                                else res++;                    
                         }
-                        else {
-                                st.push(c);
-                        }
+                        else st.push(c);            
                 }
         }
         while(!st.isEmpty()){
