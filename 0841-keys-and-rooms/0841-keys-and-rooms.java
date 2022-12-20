@@ -4,7 +4,7 @@ class Solution {
         boolean[] arr = new boolean[rooms.size()];
         set.add(0);
         help(rooms,set,arr,0);
-        System.out.println(set);
+        //System.out.println(set);
         return set.size()==rooms.size();
     }
     void help(List<List<Integer>> rooms,HashSet<Integer> set ,boolean[] arr ,int ind ){
