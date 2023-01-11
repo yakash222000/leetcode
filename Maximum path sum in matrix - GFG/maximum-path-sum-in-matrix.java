@@ -31,9 +31,9 @@ class GFG
 class Solution{
     static int maximumPath(int N, int Matrix[][])
     {
-        if(N==1){
-            return Matrix[0][0];
-        }
+        // if(N==1){
+        //     return Matrix[0][0];
+        // }
         int[][] arr = new int[Matrix.length][Matrix[0].length];
         
         for(int i=0;i<N;i++){
