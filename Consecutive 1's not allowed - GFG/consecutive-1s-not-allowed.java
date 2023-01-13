@@ -24,6 +24,8 @@ class GFG {
 
 // User function Template for Java
 
+
+
 class Solution {
     int MOD = 1000000007;
     long countStrings(int n) {
