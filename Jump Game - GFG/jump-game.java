@@ -30,11 +30,7 @@ class GFG {
 class Solution {
     static int canReach(int[] A, int N) {
         int max=0;
-        for(int i=0;i<=max && max<A.length;i++){
-            max=Math.max(max,A[i]+i);
-            
-        }
-        if(max>=A.length-1) return 1;
-        else return 0;
+        for(int i=0;i<=max && max<A.length;i++)max=Math.max(max,A[i]+i);
+        return max>=A.length-1?1:0;
     }
 };
