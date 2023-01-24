@@ -126,7 +126,7 @@ class Solution{
     // modify the BST and return its root
     public Node modify(Node root)
     {
-        sum=0;
+        //sum=0;
         help(root);
         return root;
     }
