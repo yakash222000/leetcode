@@ -19,9 +19,7 @@ class Solution {
                 TreeNode right = null;
                 if(node.left!=null)left = help(node.left,target);
                 if(node.right!=null)right = help(node.right,target);
-                if(left==null && right==null) return null;
-                else if(left !=null && left.val==target) return left;
-                else if(right != null && right.val==target) return right;
-                else return null;
+                if(left!=null) return left;
+                else return right;
         }
 }
