@@ -1,11 +1,5 @@
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
-        int size=0;
-        for(String s : words){
-                if(size<s.length()){
-                        size=s.length();
-                }
-        }
         HashMap<Character,Integer> map = new HashMap<>();
         int count=0;
         for(char ch : order.toCharArray()){
