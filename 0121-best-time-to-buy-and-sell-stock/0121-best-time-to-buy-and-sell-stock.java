@@ -3,9 +3,9 @@ class Solution {
         int n =prices.length;
         int min=prices[0];
         int res=0;
-        for(int i=1;i<n;i++){
-                res=Math.max(res,prices[i]-min);
-                min=Math.min(min,prices[i]);        
+        for(int i : prices){
+                res=Math.max(res,i-min);
+                min=Math.min(min,i);        
         }
          return res;
     }
