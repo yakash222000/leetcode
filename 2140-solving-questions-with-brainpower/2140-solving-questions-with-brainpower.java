@@ -13,10 +13,10 @@ class Solution {
             }
             dp[i]=Math.max(dp[i],dp[i+1]);
         }
-        for(long i : dp){
-            ans=Math.max(i,ans);
-            //System.out.print(i+"  ");
-        }
-        return ans;
+        // for(long i : dp){
+        //     ans=Math.max(i,ans);
+        //     //System.out.print(i+"  ");
+        // }
+        return dp[0];
     }
 }
