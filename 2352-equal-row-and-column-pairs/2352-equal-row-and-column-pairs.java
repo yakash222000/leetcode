@@ -23,11 +23,6 @@ class Solution {
                         ans+=temp;
                 }
         }
-        // for(ArrayList<Integer> k : map2.keySet()){
-        //         if(map1.containsKey(k)) {
-        //                 ans+=map1.get(k);
-        //         }
-        // }
         return ans;
         
             
