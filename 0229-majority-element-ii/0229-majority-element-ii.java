@@ -1,23 +1,42 @@
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
-        ArrayList<Integer> res = new ArrayList<>();
-        HashMap<Integer,Integer> map= new HashMap<>();
-        int freq=nums.length/3;
-        for(int i : nums){
-                if(map.containsKey(i)){
-                        map.put(i,map.get(i)+1);
-                }
-                else
-                        map.put(i,1);
+        List<Integer> result = new ArrayList<Integer>();
+        if (nums.length == 0)
+            return result;
+        int firstMajor = Integer.MAX_VALUE, firstSum = 0,
+            secondMajor = Integer.MIN_VALUE, secondSum = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == firstMajor)
+                firstSum++;
+            else if (nums[i] == secondMajor)
+                secondSum++;
+            else if (firstSum == 0) {
+                firstMajor = nums[i];
+                firstSum = 1;
+            }
+            else if (secondSum == 0) {
+                secondMajor = nums[i];
+                secondSum = 1;
+            }
+            else {
+                firstSum--;
+                secondSum--;
+            }
         }
-       // System.out.println(map);
-        for( int i : map.keySet()){
-                if(map.get(i)>freq){
-                        res.add(i);
-                       
-                }
-                        
+        firstSum = 0;
+        secondSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == firstMajor)
+                firstSum++;    
+            else if (nums[i] == secondMajor)
+                secondSum++;
         }
-        return res;
+        if (firstSum > nums.length / 3)
+            result.add(firstMajor);
+        if (secondSum > nums.length / 3)
+            result.add(secondMajor);
+        return result;
+
     }
 }
