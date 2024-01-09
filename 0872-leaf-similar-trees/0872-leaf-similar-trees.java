@@ -14,21 +14,22 @@
  * }
  */
 class Solution {
-        ArrayList<Integer> arr = new ArrayList<>();
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        help(root1);
-        help(root2);
-        //System.out.println(arr);
-        if(arr.size()%2!=0) return false;
-        for(int i=0;i<arr.size()/2;i++){
-                if(arr.get(i)!=arr.get(arr.size()/2+i)) return false;
+        ArrayList<Integer> arr1 = new ArrayList<>();
+        ArrayList<Integer> arr2 = new ArrayList<>();
+        
+        find(root1,arr1);
+        find(root2,arr2);
+        if(arr1.size()!=arr2.size()) return false;
+        for(int i=0;i<arr1.size();i++){
+            if(arr1.get(i)!=arr2.get(i)) return false;
         }
         return true;
     }
-    public void help(TreeNode node) {
-            if(node == null) return ;
-            if(node.left==null && node.right==null) arr.add(node.val);
-            help(node.left);
-            help(node.right);
+    public void find(TreeNode node,ArrayList<Integer> arr){
+        if(node == null) return;
+        if(node.left == null && node.right == null) arr.add(node.val);
+        find(node.left,arr);
+        find(node.right,arr);
     }
 }
