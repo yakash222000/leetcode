@@ -26,9 +26,6 @@ class Solution {
                 list2=list2.next;
         }
         list2.next=temp1.next;
-        return list1;
-            
-        
-        
+        return list1;  
     }
 }
