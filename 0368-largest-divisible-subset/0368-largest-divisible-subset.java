@@ -22,7 +22,6 @@ class Solution {
                 index=i;
             }
         }
-        System.out.println(index);
         ans.add(nums[index]);
         
         while(index!=hash[index]){
@@ -30,9 +29,6 @@ class Solution {
             ans.add(nums[index]);
         }
         
-        for(int i : dp){
-            System.out.print(i +" ");
-        }
         return ans;
     }
 }
