@@ -1,5 +1,6 @@
 class Solution {
     public int maxCoins(int[] nums) {
+        int n =nums.length;
         ArrayList<Integer> al = new ArrayList<>();
         for(int i :nums){
             al.add(i);
@@ -7,10 +8,21 @@ class Solution {
         al.add(1);
         al.add(0, 1);
         int[][] dp = new int[al.size()][al.size()];
-        for(int[] i:dp){
-            Arrays.fill(i,-1);
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= n; j++) {
+                if (i > j) continue;
+                int maxi = Integer.MIN_VALUE;
+                
+                // Iterate through possible indices to split the array
+                for (int ind = i; ind <= j; ind++) {
+                    int cost = al.get(i - 1) * al.get(ind) * al.get(j + 1) +
+                               dp[i][ind - 1] + dp[ind + 1][j];
+                    maxi = Math.max(maxi, cost);
+                }
+                dp[i][j] = maxi;
+            }
         }
-        return solve(al,1,nums.length,dp);
+        return dp[1][n];
     }
     
     public int solve(ArrayList<Integer> nums,int i,int j,int[][] dp){
