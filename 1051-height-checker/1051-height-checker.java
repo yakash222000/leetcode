@@ -1,14 +1,25 @@
 class Solution {
     public int heightChecker(int[] heights) {
-        int[] check = new int[heights.length];
-        for(int i=0;i<check.length;i++){
-            check[i]=heights[i];
+        int[] heightToFreq = new int[101];
+        
+        for (int height : heights) {
+            heightToFreq[height]++;
         }
-        int ans=0;
-        Arrays.sort(check);
-        for(int i=0;i<check.length;i++){
-            if(heights[i]!=check[i]) ans++;
+        
+        int result = 0;
+        int curHeight = 0;
+        
+        for (int i = 0; i < heights.length; i++) {
+            while (heightToFreq[curHeight] == 0) {
+                curHeight++;
+            }
+            
+            if (curHeight != heights[i]) {
+                result++;
+            }
+            heightToFreq[curHeight]--;
         }
-        return ans;
+        
+        return result;
     }
 }
