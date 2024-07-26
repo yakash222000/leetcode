@@ -1,47 +1,47 @@
 class Solution {
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
-        List<List<int[]>> graph = new ArrayList<>();
+        int[][] distance = new int[n][n];
         for (int i = 0; i < n; i++) {
-            graph.add(new ArrayList<>());
+            Arrays.fill(distance[i], Integer.MAX_VALUE);
+            distance[i][i] = 0;  // distance to itself is 0
         }
+
+        // The distance between nodes which are connected temporary distance between them
         for (int[] edge : edges) {
-            int node1 = edge[0], node2 = edge[1], distance = edge[2];
-            graph.get(node1).add(new int[]{node2, distance});
-            graph.get(node2).add(new int[]{node1, distance});
+            int node1 = edge[0], node2 = edge[1], dist = edge[2];
+            distance[node1][node2] = dist;
+            distance[node2][node1] = dist;
+        }
+
+        for (int midle = 0; midle < n; midle++) {
+            for (int source = 0; source < n; source++) {
+                for (int destination = 0; destination < n; destination++) {
+                    if (distance[source][midle] < Integer.MAX_VALUE && distance[midle][destination] < Integer.MAX_VALUE) {
+                        distance[source][destination] = Math.min(
+                            distance[source][destination], distance[source][midle] + distance[midle][destination]
+                        );  // the minimum distance is either current value or new value with path that goes through midle
+                    }
+                }
+            }
         }
 
         int minimum_number = n;
         int res = -1;
 
         for (int source = 0; source < n; source++) {
-            int neighbors = get_number_of_neighbors_in_distance(graph, source, n, distanceThreshold);
-            if (neighbors <= minimum_number) {
-                minimum_number = neighbors;
+            int source_count = 0;
+            for (int destination = 0; destination < n; destination++) {
+                if (distance[source][destination] <= distanceThreshold) {
+                    source_count++;
+                }
+            }
+
+            if (source_count <= minimum_number) {  // as in dijkstra when number equal we choose greater node
+                minimum_number = source_count;
                 res = source;
             }
         }
 
         return res;
-    }
-
-    private int get_number_of_neighbors_in_distance(List<List<int[]>> graph, int source, int n, int distanceThreshold) {
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
-        minHeap.add(new int[]{0, source}); 
-        Set<Integer> visited = new HashSet<>();
-
-        while (!minHeap.isEmpty()) {
-            int[] top = minHeap.poll();
-            int distance_to_this_node = top[0], cur_node = top[1];
-            if (!visited.contains(cur_node)) {
-                visited.add(cur_node);
-                for (int[] neighbor : graph.get(cur_node)) {
-                    int distance_from_source = distance_to_this_node + neighbor[1];
-                    if (distance_from_source <= distanceThreshold) { 
-                        minHeap.add(new int[]{distance_from_source, neighbor[0]});
-                    }
-                }
-            }
-        }
-        return visited.size() - 1;
     }
 }
