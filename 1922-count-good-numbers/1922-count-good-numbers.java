@@ -5,7 +5,6 @@ class Solution {
         if(y==0) return 1;
         long temp = pow(x,y/2);
         temp*=temp;
-        temp%=MOD;
         if(y%2!=0) temp *= x;
         temp%=MOD;
         return temp;
