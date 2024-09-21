@@ -23,56 +23,56 @@ class Solution {
 }
 
 
-class TrieNode {
-    TrieNode[] children;
-    boolean isEndOfNum;
-    TrieNode () {
-        children = new TrieNode[10];
-        isEndOfNum = false;
-    }
-} 
+// class TrieNode {
+//     TrieNode[] children;
+//     boolean isEndOfNum;
+//     TrieNode () {
+//         children = new TrieNode[10];
+//         isEndOfNum = false;
+//     }
+// } 
 
-class Trie {
-    private TrieNode root;
+// class Trie {
+//     private TrieNode root;
     
-    public Trie() {
-        root = new TrieNode();
-    }
+//     public Trie() {
+//         root = new TrieNode();
+//     }
     
-    //insert function;
-    public void insert(String word) {
-        TrieNode node = root;
-        for(char ch : word.toCharArray()) {
-            int index = ch-'0';
-            if(node.children[index]==null) {
-                node.children[index] = new TrieNode();
-            }
-            node = node.children[index];
-        }
-        node.isEndOfNum = true;
-    }
+//     //insert function;
+//     public void insert(String word) {
+//         TrieNode node = root;
+//         for(char ch : word.toCharArray()) {
+//             int index = ch-'0';
+//             if(node.children[index]==null) {
+//                 node.children[index] = new TrieNode();
+//             }
+//             node = node.children[index];
+//         }
+//         node.isEndOfNum = true;
+//     }
     
-    //search function 
-    public  boolean search(String word) {
-        TrieNode node = root;
-        for(char ch : word.toCharArray()) {
-            int index = ch - '0';
-            if(node.children[index] == null) return false;
-            node  = node.children[index];
-        }
-        return node.isEndOfNum;
-    }
+//     //search function 
+//     public  boolean search(String word) {
+//         TrieNode node = root;
+//         for(char ch : word.toCharArray()) {
+//             int index = ch - '0';
+//             if(node.children[index] == null) return false;
+//             node  = node.children[index];
+//         }
+//         return node.isEndOfNum;
+//     }
     
-    //Starts with prefix
-    public  boolean startsWith(String word) {
-        TrieNode node = root;
-        for(char ch : word.toCharArray()) {
-            int index = ch - '0';
-            if(node.children[index] == null) return false;
-            node  = node.children[index];
-        }
-        return true;
-    }
+//     //Starts with prefix
+//     public  boolean startsWith(String word) {
+//         TrieNode node = root;
+//         for(char ch : word.toCharArray()) {
+//             int index = ch - '0';
+//             if(node.children[index] == null) return false;
+//             node  = node.children[index];
+//         }
+//         return true;
+//     }
     
     
-}
+// }
