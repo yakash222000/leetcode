@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/yakash222000/leetcode/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/yakash222000/leetcode/tree/master/0216-combination-sum-iii) |
 | [2586-longest-square-streak-in-an-array](https://github.com/yakash222000/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/yakash222000/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Hash Table
 |  |
 | ------- |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2586-longest-square-streak-in-an-array](https://github.com/yakash222000/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/yakash222000/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Sorting
 |  |
 | ------- |
@@ -40,4 +42,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yakash222000/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+## Matrix
+|  |
+| ------- |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/yakash222000/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 <!---LeetCode Topics End-->
