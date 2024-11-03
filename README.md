@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yakash222000/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0812-rotate-string](https://github.com/yakash222000/leetcode/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/yakash222000/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [2580-circular-sentence](https://github.com/yakash222000/leetcode/tree/master/2580-circular-sentence) |
 ## Matrix
@@ -58,4 +59,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/yakash222000/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/yakash222000/leetcode/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
