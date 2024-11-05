@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/yakash222000/leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/yakash222000/leetcode/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yakash222000/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
 | [2586-longest-square-streak-in-an-array](https://github.com/yakash222000/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 ## Binary Search
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yakash222000/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/yakash222000/leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/yakash222000/leetcode/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
@@ -68,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/yakash222000/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Greedy
