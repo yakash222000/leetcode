@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/yakash222000/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/yakash222000/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/yakash222000/leetcode/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/yakash222000/leetcode/tree/master/0282-expression-add-operators) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/yakash222000/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
+| [0282-expression-add-operators](https://github.com/yakash222000/leetcode/tree/master/0282-expression-add-operators) |
 | [0812-rotate-string](https://github.com/yakash222000/leetcode/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/yakash222000/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [2580-circular-sentence](https://github.com/yakash222000/leetcode/tree/master/2580-circular-sentence) |
@@ -90,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
+## Math
+|  |
+| ------- |
+| [0282-expression-add-operators](https://github.com/yakash222000/leetcode/tree/master/0282-expression-add-operators) |
 <!---LeetCode Topics End-->
