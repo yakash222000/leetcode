@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/yakash222000/leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/yakash222000/leetcode/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/yakash222000/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yakash222000/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/yakash222000/leetcode/tree/master/0136-single-number) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/yakash222000/leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/yakash222000/leetcode/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/yakash222000/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yakash222000/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/yakash222000/leetcode/tree/master/0131-palindrome-partitioning) |
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/yakash222000/leetcode/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/yakash222000/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/yakash222000/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/yakash222000/leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/yakash222000/leetcode/tree/master/0231-power-of-two) |
