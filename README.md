@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/yakash222000/leetcode/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yakash222000/leetcode/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/yakash222000/leetcode/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
 | [0216-combination-sum-iii](https://github.com/yakash222000/leetcode/tree/master/0216-combination-sum-iii) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/yakash222000/leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0029-divide-two-integers](https://github.com/yakash222000/leetcode/tree/master/0029-divide-two-integers) |
 | [0090-subsets-ii](https://github.com/yakash222000/leetcode/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/yakash222000/leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/yakash222000/leetcode/tree/master/0231-power-of-two) |
 | [1940-maximum-xor-for-each-query](https://github.com/yakash222000/leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/yakash222000/leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
