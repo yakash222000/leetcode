@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
 | [0216-combination-sum-iii](https://github.com/yakash222000/leetcode/tree/master/0216-combination-sum-iii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/yakash222000/leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/yakash222000/leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/yakash222000/leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1755-defuse-the-bomb](https://github.com/yakash222000/leetcode/tree/master/1755-defuse-the-bomb) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/yakash222000/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yakash222000/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/yakash222000/leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/yakash222000/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2586-longest-square-streak-in-an-array](https://github.com/yakash222000/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/yakash222000/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/yakash222000/leetcode/tree/master/0037-sudoku-solver) |
 | [0079-word-search](https://github.com/yakash222000/leetcode/tree/master/0079-word-search) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/yakash222000/leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/yakash222000/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/yakash222000/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Greedy
