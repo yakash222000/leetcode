@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1940-maximum-xor-for-each-query](https://github.com/yakash222000/leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [1972-rotating-the-box](https://github.com/yakash222000/leetcode/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/yakash222000/leetcode/tree/master/2089-maximum-matrix-sum) |
+| [2164-two-best-non-overlapping-events](https://github.com/yakash222000/leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/yakash222000/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2232-adding-spaces-to-a-string](https://github.com/yakash222000/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/yakash222000/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/yakash222000/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/yakash222000/leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/yakash222000/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [2164-two-best-non-overlapping-events](https://github.com/yakash222000/leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/yakash222000/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2586-longest-square-streak-in-an-array](https://github.com/yakash222000/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/yakash222000/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/yakash222000/leetcode/tree/master/0787-sliding-puzzle) |
 | [1250-longest-common-subsequence](https://github.com/yakash222000/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/yakash222000/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [2164-two-best-non-overlapping-events](https://github.com/yakash222000/leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2554-minimum-total-distance-traveled](https://github.com/yakash222000/leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/yakash222000/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/yakash222000/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -77,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1468-check-if-n-and-its-double-exist](https://github.com/yakash222000/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [2164-two-best-non-overlapping-events](https://github.com/yakash222000/leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/yakash222000/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2554-minimum-total-distance-traveled](https://github.com/yakash222000/leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/yakash222000/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
@@ -220,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/yakash222000/leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [2164-two-best-non-overlapping-events](https://github.com/yakash222000/leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/yakash222000/leetcode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/yakash222000/leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Monotonic Queue
