@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/yakash222000/leetcode/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
 | [0216-combination-sum-iii](https://github.com/yakash222000/leetcode/tree/master/0216-combination-sum-iii) |
+| [0494-target-sum](https://github.com/yakash222000/leetcode/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/yakash222000/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/yakash222000/leetcode/tree/master/0787-sliding-puzzle) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/yakash222000/leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/yakash222000/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/yakash222000/leetcode/tree/master/0139-word-break) |
+| [0494-target-sum](https://github.com/yakash222000/leetcode/tree/master/0494-target-sum) |
 | [0787-sliding-puzzle](https://github.com/yakash222000/leetcode/tree/master/0787-sliding-puzzle) |
 | [1250-longest-common-subsequence](https://github.com/yakash222000/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/yakash222000/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/yakash222000/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/yakash222000/leetcode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/yakash222000/leetcode/tree/master/0282-expression-add-operators) |
+| [0494-target-sum](https://github.com/yakash222000/leetcode/tree/master/0494-target-sum) |
 | [0787-sliding-puzzle](https://github.com/yakash222000/leetcode/tree/master/0787-sliding-puzzle) |
 ## Bit Manipulation
 |  |
