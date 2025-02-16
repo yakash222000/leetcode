@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/yakash222000/leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1755-defuse-the-bomb](https://github.com/yakash222000/leetcode/tree/master/1755-defuse-the-bomb) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/yakash222000/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/yakash222000/leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/yakash222000/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/yakash222000/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/yakash222000/leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/yakash222000/leetcode/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/yakash222000/leetcode/tree/master/0494-target-sum) |
 | [0787-sliding-puzzle](https://github.com/yakash222000/leetcode/tree/master/0787-sliding-puzzle) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/yakash222000/leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 ## Bit Manipulation
 |  |
 | ------- |
