@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3483-alternating-groups-ii](https://github.com/yakash222000/leetcode/tree/master/3483-alternating-groups-ii) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/yakash222000/leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/yakash222000/leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/yakash222000/leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Hash Table
 |  |
 | ------- |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/yakash222000/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/yakash222000/leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/yakash222000/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/yakash222000/leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Backtracking
 |  |
 | ------- |
